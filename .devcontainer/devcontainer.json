@@ -1,0 +1,12 @@
+{
+  "name": "java",
+  "image": "amazoncorretto:21",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+			"extensions": [
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
