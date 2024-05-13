@@ -1,8 +1,13 @@
 {
   "name": "java",
-  "build": {
-    "dockerfile": "."
+  "image": "mcr.microsoft.com/devcontainers/java:1-21",
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "installGradle": true
+    }
   },
+
   "customizations": {
     "vscode": {
       "settings": {
@@ -10,8 +15,7 @@
       },
       "extensions": [
         "streetsidesoftware.code-spell-checker",
-        "vscjava.vscode-java-pack",
-        "SonarSource.sonarlint-vscode"
+        "vscjava.vscode-java-pack"
       ]
     }
   }
