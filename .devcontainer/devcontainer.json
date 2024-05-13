@@ -12,11 +12,14 @@
     "vscode": {
       "settings": {
         "editor.tabSize": 2,
-        "git.enabled": false
+        "git.enabled": false,
+        "workbench.iconTheme": "material-icon-theme"
       },
       "extensions": [
         "streetsidesoftware.code-spell-checker",
-        "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "PKief.material-icon-theme"
       ]
     }
   }
