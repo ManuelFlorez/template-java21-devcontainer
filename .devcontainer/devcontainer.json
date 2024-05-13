@@ -11,7 +11,8 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "git.enabled": false
       },
       "extensions": [
         "streetsidesoftware.code-spell-checker",
